@@ -47,4 +47,51 @@
     margin: 30px;
 }
 
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
 
+.ex-7-img:hover{
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(80%);
+    filter: saturate(50%);
+}
+
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(80%);
+    filter: saturate(50%);
+    border-radius: 20px;
+}
+
+.ex-9-img{
+    transition: all 2s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(60%);
+    filter: saturate(50%);
+    border-radius: 20px;
+    margin: 0;
+    width: 500px;
+}
+
+.ex-10-icon{
+    animation: rotating 1s linear infinite;
+}
+
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
